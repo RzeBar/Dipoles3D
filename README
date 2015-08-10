@@ -1,0 +1,22 @@
+#################################################################################################################
+# PROJEKT NA JEZYKI SKRYPTOWE - 2014 : Python
+#
+# Autor: Bartlomiej Rzeszotarski
+# Temat: Ruch dipoli we wlasnym polu elektrycznym (3D)
+# 
+# UWAGA! Do poprawnego działania skryptów potrzebne są pakiety: numpy, mayavi
+# Uruchomienie: ./main.py
+# 
+# Adnotacje:
+# Ad1. Na pythonie v3.2 nie działały wizualizacje więc przepisałem to na pythona v2.7
+# 
+# Ad2. Dane wyjsciowe zapisywane do pliku moga byc dowolne (np. natezenia, polozenia) - klasa Dipole ma dużo informacji
+# 
+# Ad3. Program nie radzi sobie zbyt dobrze kiedy dipole są blisko siebie (wystrzeliwują) - możliwe rozwiązanie 
+#	to np "sklejac" dipole jesli ich odleglosci są rzędu 10e-20 metra. Niestety wymagałoby to dużego nakładu pracy.
+# 
+# Ad4. Program nie jest dobrze przygotowany do obsługi wszystkich błędów, ale sprawnie wyrzuca wyjątki kończąc program 
+# 
+# Ad5. 
+# 
+#################################################################################################################
